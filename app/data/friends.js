@@ -8,7 +8,7 @@ var friends = [
         "name":"Andrea",
         "photo":"https://image.shutterstock.com/image-photo/people-beauty-lifestyle-concept-shot-600w-662171107.jpg",
         "scores":[3, 2, 5, 4, 5, 1, 2, 5, 4, 1]
-    }    
+    },    
     {
         "name":"Daniel",
         "photo":"https://image.shutterstock.com/image-photo/adult-hispanic-man-wearing-glasses-600w-1166318779.jpg",
@@ -23,7 +23,7 @@ var friends = [
         "name":"Mr. Grumper",
         "photo":"https://image.shutterstock.com/image-photo/portrait-angry-senior-frowning-looking-260nw-417855667.jpg",
         "scores":[ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ]
-    },
+    }
 ];
 
 module.exports = friends;
