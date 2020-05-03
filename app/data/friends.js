@@ -1,15 +1,14 @@
-// Global Variables
 var friends = [
     {
-        "name":"Ahmed",
-        "photo":"https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+        "name":"James",
+        "photo":"https://www.pexels.com/photo/adult-beard-boy-casual-220453/",
         "scores":[ 5, 1, 4, 4, 5, 1, 2, 5, 4, 1 ]
     },
     {
-        "name":"Laura",
-        "photo":"https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
-        "scores":[ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 ]
+        "name":"Andrea",
+        "photo":"https://www.pexels.com/photo/women-s-white-and-black-button-up-collared-shirt-774909/",
+        "scores":[3, 2, 5, 4, 5, 1, 2, 5, 4, 1]
     }    
 ];
-// Export
+
 module.exports = friends;
