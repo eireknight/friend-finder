@@ -1,12 +1,12 @@
 var friends = [
     {
         "name":"James",
-        "photo":"https://www.pexels.com/photo/adult-beard-boy-casual-220453/",
+        "photo":"Photo by Pixabay from Pexels",
         "scores":[ 5, 1, 4, 4, 5, 1, 2, 5, 4, 1 ]
     },
     {
         "name":"Andrea",
-        "photo":"https://www.pexels.com/photo/women-s-white-and-black-button-up-collared-shirt-774909/",
+        "photo":"Photo by Andrea Piacquadio from Pexels",
         "scores":[3, 2, 5, 4, 5, 1, 2, 5, 4, 1]
     }    
 ];
