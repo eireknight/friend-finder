@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
+    <title>Survey</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron mt-2" style="color:white;background-color:#5680E9;margin-left:16px;margin-right:16px">
+            <h1 style="text-align:center" class="display-4"></i> Survey Questions </h1>
+        </div>
+        <div class="container">
+            <form> 
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="card" style="height:100%;background-color:#A4CEEB;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Name (Required)</h5>
+                            <input id="name" type="text" class="form-control" required="true">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="card" style="height:100%;background-color:#A4CEEB;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Photo Link (Required)</h5>
+                            <input id="photo" type="text" class="form-control" required="true">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #1</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">Your brain is always "On".</p>
+                            </div>
+                            <select required="true" class="form-control" id="q1">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #2</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You value Justice over Mercy.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q2">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #3</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You work well under pressure.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q3">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #4</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You rarely do anything without a plan.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q4">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #5</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You rarely get angry.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q5">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #6</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You sometimes think you are better than others.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q6">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #7</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You value empathy more than confidence.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q7">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-2">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #8</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You sometimes wish you were different.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q8">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h1 style="text-align:center; padding:25px"  class="display-4"><i class="fas fa-handshake"></i></h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #9</h5>
+                            <div id="maxHeight" class="mb-2 textBox">
+                                <p class="card-text">You enjoy taking time to appreciate nature.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q9">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h5 class="card-title">Question #10</h5>
+                            <div class="mb-2 textBox">
+                                <p class="card-text">You are happiest when around people.</p>
+                            </div>
+                            <select required="true" class="form-control" id="q10">
+                                <option value="">Select an Option</option>
+                                <option value="1">1 (Strongly Disagree)</option>
+                                <option value="2">2 (Partly Disagree)</option>
+                                <option value="3">3 (Neutral)</option>
+                                <option value="4">4 (Partly Agree)</option>
+                                <option value="5">5 (Strongly Agree)</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <div class="card" style="height:100%;background-color:#C1C8E4;color:white;border:none;">
+                        <div class="card-body">
+                            <h1 style="text-align:center; padding:25px" class="display-4"><i class="fas fa-handshake"></i></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <input type="submit" id="submit" class="btn btn-block" style="background-color:#58E9EA;color:white;"/>
+                <button id="success" disabled class="btn btn-success btn-block" style="display:none;"><i class="fas fa-check-circle"></i></button>
+            </div>
+            </form>
+
+            <button style="display:none;" id="modalButton" data-toggle="modal" data-target="#modal"></button>
+            <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modalTitle">It's a Match!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div id= "modalBody" class="modal-body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button style="display:none;" id="modalErrorButton" data-toggle="modal" data-target="#modalError"></button>
+            <div class="modal fade" id="modalError" tabindex="-1" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Whoops!</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p>You've already done this. Please try again.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-3 mb-2">
+                    <p><a href="../data/friends.js" target="_blank">Friends List</a> | <a href="https://github.com/eireknight/friend-finder" target="_blank">GitHub Repo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(".textBox").css("height", $("#maxHeight").height());
+        $("form").submit(function(event){
+            event.preventDefault();
+            var yourScore = [ parseInt($("#q1").val().trim()),parseInt($("#q2").val().trim()),parseInt($("#q3").val().trim()),parseInt($("#q4").val().trim()),parseInt($("#q5").val().trim()),parseInt($("#q6").val().trim()),parseInt($("#q7").val().trim()),parseInt($("#q8").val().trim()),parseInt($("#q9").val().trim()),parseInt($("#q10").val().trim()) ];
+            var newFriend = {
+                name: $("#name").val().trim(),
+                photo: $("#photo").val().trim(),
+                scores: yourScore
+            };
+            $.get("/api/friends",function(data){
+                var duplicate = false;
+                for(var i = 0; i < data.length; i++){
+                    for(var x = 0; x < data[i].scores.length; x++){
+                        data[i].scores[x] = parseInt(data[i].scores[x]);
+                    }
+                    if(JSON.stringify(data[i]) === JSON.stringify(newFriend)){
+                        duplicate = true;
+                    }
+                }
+                if(duplicate === false){
+                    $.post("/api/friends",newFriend,
+                    function(data){
+                        $.get("/api/friends",function(data){
+                            var compatibleFriends = [];
+                            for(var i = 0; i < data.length; i++){
+                                if(data[i].name !== $("#name").val().trim()){
+                                    var friendScore = data[i].scores;
+                                    var compatibility = 0;
+                                    for(var x = 0; x < friendScore.length; x++){
+                                        var difference =  Math.abs(parseInt(friendScore[x]) - parseInt(yourScore[x]));
+                                        compatibility = compatibility + difference;
+                                    }
+                                    compatibleFriends[i] = compatibility;
+                                }
+                            }
+                            var min = compatibleFriends.reduce((a, b) => Math.min(a, b));
+                            var modalBody = $("<div>");
+                            var matchName = $(`<h6>${data[compatibleFriends.indexOf(min)].name}</h6>`);
+                            $(modalBody).append(matchName);
+                            var matchImg = $(`<img src="${data[compatibleFriends.indexOf(min)].photo}" style="max-width:400px;"/>`);                   
+                            $(modalBody).append(matchImg);
+                            $("#modalBody").empty();
+                            $("#modalBody").append(modalBody);
+                            $("#modalButton").trigger("click");
+                            $("#submit").hide();
+                            $("#success").show();
+                            setTimeout(function(){
+                                $("#success").hide();
+                                $("#submit").show();
+                            }, 2500);
+                        });
+                    });
+                }
+                else{
+                    $("#modalErrorButton").trigger("click");
+                }
+            });
+        });
+    </script>
+</body>
+</html>
